@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "coastseg"
 dynamic = ["readme"]
-version = "1.2.3" 
+version = "1.2.4" 
 authors = [
   { name=" Sharon Fitzpatrick", email="sharon.fitzpatrick23@gmail.com" },
 ]
@@ -30,6 +30,10 @@ dependencies = [
   "jupyterlab>=3.0.0",
   "leafmap>=0.14.0",
   "nest-asyncio",
+  "cdsapi",
+  "statsmodels",
+  "bathyreq",
+
   "xarray",]
 license = { file="LICENSE" }
 requires-python = ">=3.10"
